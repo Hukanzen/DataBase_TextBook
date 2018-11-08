@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.6)  8 NOV 2018 14:17
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.6)  8 NOV 2018 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -341,16 +341,31 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 
 ]
 第 2 章
-[3
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 76.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 86.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 86.
+ [3
 
-] (./Main.aux) ) 
+] [4]
+(./Main.aux) ) 
 Here is how much of TeX's memory you used:
- 4285 strings out of 494746
- 59672 string characters out of 6180665
- 162404 words of memory out of 5000000
- 8058 multiletter control sequences out of 15000+600000
- 13473 words of font info for 55 fonts, out of 8000000 for 9000
+ 4342 strings out of 494746
+ 60395 string characters out of 6180665
+ 165404 words of memory out of 5000000
+ 8099 multiletter control sequences out of 15000+600000
+ 19221 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,6n,43p,281b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,43p,346b,301s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (4 pages, 3952 bytes).
+Output written on Main.dvi (5 pages, 16680 bytes).
