@@ -1,15 +1,15 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.6)  8 NOV 2018 14:14
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.6)  8 NOV 2018 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Main.Tex
 (./Main.tex
 pLaTeX2e <2018-05-20> (based on LaTeX2e <2018-04-01> patch level 5)
-(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jbook.cls
-Document Class: jbook 2018/02/04 v1.7h Standard pLaTeX class
+(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jreport.cls
+Document Class: jreport 2018/02/04 v1.7h Standard pLaTeX class
 \c@@paper=\count83
-(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jbk10.clo
-File: jbk10.clo 2018/02/04 v1.7h Standard pLaTeX file (size option)
+(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jsize10.clo
+File: jsize10.clo 2018/02/04 v1.7h Standard pLaTeX file (size option)
 )
 \c@part=\count84
 \c@chapter=\count85
@@ -24,7 +24,7 @@ File: jbk10.clo 2018/02/04 v1.7h Standard pLaTeX file (size option)
 \belowcaptionskip=\skip42
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 707.
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 703.
 \toclineskip=\dimen118
 \@lnumwidth=\dimen119
 \bibindent=\dimen120
@@ -252,27 +252,27 @@ File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
 
 Package Listings Warning: Unknown column format `[l]{fullflexible}' on input li
-ne 52.
+ne 53.
 
 (./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 61.
-LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 \c@lstlisting=\count122
 
 *geometry* driver: auto-detecting
@@ -282,7 +282,7 @@ LaTeX Font Info:    ... okay on input line 61.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
+* modes: 
 * h-part:(L,W,R)=(36.13498pt, 525.23792pt, 36.13498pt)
 * v-part:(T,H,B)=(36.13498pt, 772.77689pt, 36.13498pt)
 * \paperwidth=597.50787pt
@@ -291,12 +291,12 @@ LaTeX Font Info:    ... okay on input line 61.
 * \textheight=772.77689pt
 * \oddsidemargin=-36.13501pt
 * \evensidemargin=-36.13501pt
-* \topmargin=-66.2025pt
+* \topmargin=-73.13501pt
 * \headheight=12.0pt
-* \headsep=18.06749pt
+* \headsep=25.0pt
 * \topskip=7.77588pt
-* \footskip=25.29494pt
-* \marginparwidth=133.0pt
+* \footskip=30.0pt
+* \marginparwidth=106.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
@@ -304,39 +304,53 @@ LaTeX Font Info:    ... okay on input line 61.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
+]
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 65.
+ (./Main.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+)
+\tf@toc=\write3
+\openout3 = `Main.toc'.
 
-
-] [2
+ [1
 
 ]
 第 1 章
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 64.
-[3] (./Main.aux) ) 
+[2
+
+]
+第 2 章
+[3
+
+] (./Main.aux) ) 
 Here is how much of TeX's memory you used:
- 4280 strings out of 494746
- 59619 string characters out of 6180665
- 162505 words of memory out of 5000000
- 8057 multiletter control sequences out of 15000+600000
- 13165 words of font info for 54 fonts, out of 8000000 for 9000
+ 4285 strings out of 494746
+ 59672 string characters out of 6180665
+ 162404 words of memory out of 5000000
+ 8058 multiletter control sequences out of 15000+600000
+ 13473 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,6n,43p,281b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (3 pages, 3580 bytes).
+Output written on Main.dvi (4 pages, 3952 bytes).
