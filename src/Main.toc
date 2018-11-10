@@ -1,6 +1,10 @@
 \contentsline {chapter}{\numberline {第1章}はじめに}{2}
 \contentsline {chapter}{\numberline {第2章}データベースとは}{3}
-\contentsline {section}{\numberline {2.1}データベース}{3}
-\contentsline {subsection}{\numberline {2.1.1}データモデル}{3}
-\contentsline {subsection}{\numberline {2.1.2}データベース管理システム}{3}
-\contentsline {subsection}{\numberline {2.1.3}データベースとファイルの違い}{4}
+\contentsline {section}{\numberline {2.1}データモデル}{3}
+\contentsline {section}{\numberline {2.2}データベース管理システム}{3}
+\contentsline {section}{\numberline {2.3}ファイルとの相違}{4}
+\contentsline {chapter}{\numberline {第3章}リレーショナルデータモデル}{5}
+\contentsline {section}{\numberline {3.1}構造記述}{5}
+\contentsline {subsection}{\numberline {3.1.1}ドメイン}{5}
+\contentsline {subsection}{\numberline {3.1.2}直積}{5}
+\contentsline {subsection}{\numberline {3.1.3}リレーションスキーマ}{6}
