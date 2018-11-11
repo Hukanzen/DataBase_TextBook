@@ -143,7 +143,7 @@
 					\caption{リレーションのサンプル}
 					\label{tbl:リレーションのサンプル}
 					\begin{tabular}{|c|c|c|} \hline
-						$D_1$ & $D_2$ & $D_3$ \\ \hline \hline
+						数字 & 英字 & 平仮名 \\ \hline \hline
 						1 & a & あ \\ \hline
 						1 & a & い \\ \hline
 						1 & b & あ \\ \hline
@@ -180,16 +180,28 @@
 ドメインの別名は，定義域と言われる．プログラミング言語には，INTEGER，CHARACTER，FLOATなどのデータ型が存在する．それを元に，定義された集合である．例として，$D_1=INTEGER$ ，$D_2=VARCHAR(1)$などと定義できる．
 % PostgreSQLにおける，データ型の例
 \subsection{直積}
-\par 次に，ドメインからなる直積を求める．属性$D_1=\{x|x=1,2\}$，$D_2=\{c|c=a,b,c\}$，$D_3=\{s|s=あ,い\}$とする．このとき，$D_1 \times D_2 \times D_3$を求めると，次のような12個の要素が得られる．
-\begin{center}
-	$\{(1,a,あ),(1,a,い),(1,b,あ),...,(2,c,あ),(2,c,い)\}$
-\end{center}
+\par 次に，ドメインからなる直積を求める．ドメイン
+\begin{equation}
+	D_1=\{x|x=1,2\},D_2=\{c|c=a,b,c\},D_3=\{s|s=あ,い\}
+\end{equation}
+	とする．このとき，$D_1 \times D_2 \times D_3$を求めると，次のような12個の要素が得られる．
+\begin{equation}
+	\{(1,a,あ),(1,a,い),(1,b,あ),...,(2,c,あ),(2,c,い)\}
+\end{equation}
 この直積集合の各要素を組\footnote{タプル，タップル，tuple}という．
 \par そして，ドメイン$D_1$，$D_2$，$D_3$を用いた部分集合，リレーション
-\begin{center}
-	$R=D_1 \times D_2 \times D_3=\{(1,a,あ),(1,a,い),...,(2,c,い)\}$
-\end{center}
-を定義できる．また，リレーションの組の総数を$R$の基数\footnote{濃度,cardinality}，定義されているドメインの個数を次数\footnote{degree}をという．この場合は，$cardinality(R)=12$，$degree(R)=3$である．
+\begin{equation}
+	R \subseteq [\{D_1 \times D_2 \times D_3\}=\{(1,a,あ),(1,a,い),...,(2,c,い)\}] \label{eq:リレーションドメイン}
+\end{equation}
+を定義できる．また，リレーションの組の総数を$R$の基数\footnote{濃度,cardinality}，定義されているドメインの個数を次数\footnote{degree}をという．この場合は，$cardinality(R)=12$，$degree(R)=3$である．ドメインに対する名前を属性名\footnote{attribute name，属性}という．ドメイン関数
+\begin{eqnarray}
+	R \subseteq \{D_i=dom(A_i)\} (i=1,2,...,n)
+\end{eqnarray}
+と定義できる．表\ref{tbl:リレーションのサンプル}でいうと，式(\ref{eq:リレーションドメイン})より，
+\begin{equation}
+	R \subseteq \{D_1 \times D_2 \times D_3 = dom(A_1) \times dom(A_2) \times dom(A_3) = dom(数字) \times dom(英字) \times dom(平仮名) \}
+\end{equation}
+となる．
 
 \subsection{行と列}
 リレーション$R$を用いて，テーブル\footnote{表,table}(表\ref{tbl:リレーションのサンプル})を表すことができる．テーブルの横を行\footnote{row．タプルに対応する．}，縦を列\footnote{カラム，column．属性に対応する．}という．
