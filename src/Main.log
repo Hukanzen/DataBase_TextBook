@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.6)  21 NOV 2018 15:36
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2018.7.6)  21 NOV 2018 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -341,39 +341,44 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 
 ]
 第 2 章
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 91.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 95.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 91.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 96.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 100.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 96.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 100.
  [3
 
 ] [4]
 第 3 章
 
-Overfull \hbox (15.33333pt too wide) in paragraph at lines 140--176
+Overfull \hbox (15.33333pt too wide) in paragraph at lines 144--180
  [][][] 
  []
 
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 179.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 183.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 179.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 183.
 [5
 
-] [6] (./Main.aux) ) 
+]
+Overfull \hbox (15.33333pt too wide) in paragraph at lines 229--259
+ [][][] 
+ []
+
+[6] [7] (./Main.aux) ) 
 Here is how much of TeX's memory you used:
- 4347 strings out of 494746
- 60512 string characters out of 6180665
- 168404 words of memory out of 5000000
- 8104 multiletter control sequences out of 15000+600000
+ 4351 strings out of 494746
+ 60591 string characters out of 6180665
+ 170404 words of memory out of 5000000
+ 8108 multiletter control sequences out of 15000+600000
  19221 words of font info for 78 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,16n,43p,415b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Main.dvi (7 pages, 32608 bytes).
+Output written on Main.dvi (8 pages, 39468 bytes).
